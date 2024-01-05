@@ -11,7 +11,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git@github.com:AdvancedMillenniumTechnologies/ngx-intl-tel-input.git"
+    "url": "git+ssh://git@github.com/AdvancedMillenniumTechnologies/ngx-intl-tel-input.git"
   },
   "author": {
     "name": "Dinshaj",
