@@ -1,5 +1,5 @@
 {
-  "name": "@amt/ngx-intl-tel-input",
+  "name": "@amt.in/ngx-intl-tel-input",
   "version": "4.0.2",
   "peerDependencies": {
     "@angular/common": "^17.0.1",

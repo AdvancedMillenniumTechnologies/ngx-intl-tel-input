@@ -1,5 +1,5 @@
 {
-  "name": "@amt/ngx-intl-tel-input",
+  "name": "@amt.in/ngx-intl-tel-input-app",
   "version": "1.0.0",
   "scripts": {
     "ng": "ng",
@@ -9,12 +9,12 @@
     "lint": "ng lint",
     "e2e": "ng e2e",
     "build_stats": "ng build --stats-json",
-    "analyze": "webpack-bundle-analyzer dist/@amt/ngx-intl-tel-input-app/stats.json",
+    "analyze": "webpack-bundle-analyzer dist/@amt.in/ngx-intl-tel-input-app/stats.json",
     "build_lib": "ng build ngx-intl-tel-input",
-    "copy-license": "cp ./LICENSE ./dist/@amt/ngx-intl-tel-input",
-    "copy-readme": "cp ./README.md ./dist/@amt/ngx-intl-tel-input",
+    "copy-license": "cp ./LICENSE ./dist/@amt.in/ngx-intl-tel-input",
+    "copy-readme": "cp ./README.md ./dist/@amt.in/ngx-intl-tel-input",
     "copy-files": "npm run copy-license && npm run copy-readme",
-    "npm_pack": "npm run copy-files && cd dist/@amt/ngx-intl-tel-input && npm pack",
+    "npm_pack": "npm run copy-files && cd dist/@amt.in/ngx-intl-tel-input && npm pack",
     "package": "npm run build_lib && npm run npm_pack"
   },
   "private": true,
