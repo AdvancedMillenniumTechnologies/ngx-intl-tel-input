@@ -15,7 +15,8 @@
       "my-lib": [
         "dist/my-lib/my-lib",
         "dist/my-lib"
-      ]
+      ],
+      "ngx-intl-tel": ["dist/ngx-intl-tel"]
     },
     "declaration": false,
     "downlevelIteration": true,
@@ -23,12 +24,13 @@
     "moduleResolution": "node",
     "strictPropertyInitialization": false,
     "importHelpers": true,
-    "target": "es2017",
+    "target": "es2022",
     "module": "es2020",
     "lib": [
       "es2020",
       "dom"
-    ]
+    ],
+    "useDefineForClassFields": false
   },
   "angularCompilerOptions": {
     "enableI18nLegacyMessageIdFormat": false,
